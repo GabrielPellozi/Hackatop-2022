@@ -32,6 +32,29 @@ function getWordCount(str) {
 
 // }
 
+/**
+ * @param {string} keyword 
+ * @param {string array} words 
+ */
+function getWordDistance(keyword, words)
+{
+    let distance = 0;
+    for (let i = 0; i < words.length; ++i)
+    {
+        ++distance;
+        if (!isNaN(words[i]))
+        {
+            console.log(words[i] + "   " + distance);
+            return distance;
+        }
+
+        if (words[i] == keyword)
+        {
+            distance = 0;
+        }
+    }
+}
+
 fs.readFile('varejo pip 2022.json', 'utf8', function(err, data){
     if (err)
     {
@@ -40,18 +63,23 @@ fs.readFile('varejo pip 2022.json', 'utf8', function(err, data){
     }
       
     var jsonData = JSON.parse(data);
+    var organic_words = [];
+
+    let organicResultsLength = jsonData.organic_results.length;
+
     // var organicResults = jsonData.organic_results[0].snippet;
+    for (let i = 0; i < organicResultsLength; ++i)
+    {
+        organic_words[i] = new Array(organicResultsLength);
+        organic_words[i] = jsonData.organic_results[i].snippet.split(" ");
+    }
+
+
+
+    console.log(organic_words);
+
+    getWordDistance("PIB", organic_words[0]);
+
     var organicResults = jsonData.organic_results;
-    console.log(organicResults);
+    // console.log(organicResults);
 });
-  
-
-
-
-
-
-
-
-
-
-
