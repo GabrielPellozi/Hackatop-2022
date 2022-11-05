@@ -1,0 +1,315 @@
+{
+    "search_metadata": {
+        "id": "6366d32ef0adfbfc53db155b",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/98d6aeab4d9a8542/6366d32ef0adfbfc53db155b.json",
+        "created_at": "2022-11-05 21:18:38 UTC",
+        "processed_at": "2022-11-05 21:18:38 UTC",
+        "google_url": "https://www.google.com/search?q=varejo+pib&oq=varejo+pib&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/98d6aeab4d9a8542/6366d32ef0adfbfc53db155b.html",
+        "total_time_taken": 0.98
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "varejo pib",
+        "google_domain": "google.com",
+        "device": "desktop"
+    },
+    "search_information": {
+        "organic_results_state": "Results for exact spelling",
+        "query_displayed": "varejo pib",
+        "total_results": 1610000,
+        "time_taken_displayed": 0.35,
+        "menu_items": [
+            {
+                "position": 1,
+                "title": "All"
+            },
+            {
+                "position": 2,
+                "title": "News",
+                "link": "https://www.google.com/search?q=varejo+pib&source=lnms&tbm=nws&sa=X&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ_AUoAXoECAEQAw",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&tbm=nws"
+            },
+            {
+                "position": 3,
+                "title": "Images",
+                "link": "https://www.google.com/search?q=varejo+pib&source=lnms&tbm=isch&sa=X&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ_AUoAnoECAEQBA",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&tbm=isch"
+            },
+            {
+                "position": 4,
+                "title": "Maps",
+                "link": "https://maps.google.com/maps?q=varejo+pib&um=1&ie=UTF-8&sa=X&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ_AUoA3oECAEQBQ"
+            },
+            {
+                "position": 5,
+                "title": "Shopping",
+                "link": "https://www.google.com/search?q=varejo+pib&source=lnms&tbm=shop&sa=X&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ_AUoBHoECAEQBg",
+                "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&tbm=shop"
+            }
+        ]
+    },
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "O que esperar para o PIB depois dos dados ... - Valor Investe",
+            "link": "https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2022/04/13/o-que-esperar-para-o-pib-depois-dos-dados-sobre-o-desempenho-das-vendas-do-varejo.ghtml",
+            "displayed_link": "https://valorinveste.globo.com › noticia",
+            "date": "Apr 13, 2022",
+            "snippet": "Segundo a Pesquisa Mensal do Comércio (PMC), o volume de vendas do varejo restrito cresceu 1,1% em fevereiro. Analistas comentam o cenário.",
+            "snippet_highlighted_words": [
+                "varejo"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "valorinveste.globo.com was first indexed by Google in April 2019",
+                    "source_info_link": "https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2022/04/13/o-que-esperar-para-o-pib-depois-dos-dados-sobre-o-desempenho-das-vendas-do-varejo.ghtml",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d87081ef3880d24722989017729b028dd40df45879b41f81a62b86b3b5b827af7.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2022/04/13/o-que-esperar-para-o-pib-depois-dos-dados-sobre-o-desempenho-das-vendas-do-varejo.ghtml&tbm=ilp&ilps=ADNMCi1BoBrBIUjYXBrVrfloifxNb1lR9Q",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1BoBrBIUjYXBrVrfloifxNb1lR9Q&q=About+https%3A%2F%2Fvalorinveste.globo.com%2Fmercados%2Fbrasil-e-politica%2Fnoticia%2F2022%2F04%2F13%2Fo-que-esperar-para-o-pib-depois-dos-dados-sobre-o-desempenho-das-vendas-do-varejo.ghtml",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:KoflVSWxn7MJ:https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2022/04/13/o-que-esperar-para-o-pib-depois-dos-dados-sobre-o-desempenho-das-vendas-do-varejo.ghtml&cd=1&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 2,
+            "title": "Mesmo com terceira queda no varejo, PIB brasileiro deve ...",
+            "link": "https://www.moneytimes.com.br/mesmo-com-terceira-queda-no-varejo-pib-brasileiro-deve-fechar-2022-acima-dos-2/",
+            "displayed_link": "https://www.moneytimes.com.br › m...",
+            "date": "Sep 14, 2022",
+            "snippet": "Cerca de 10% da composição do PIB é representado pelo varejo, enquanto cerca de 70% fica por conta dos serviços.",
+            "snippet_highlighted_words": [
+                "PIB",
+                "varejo"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "moneytimes.com.br was first indexed by Google more than 10 years ago",
+                    "source_info_link": "https://www.moneytimes.com.br/mesmo-com-terceira-queda-no-varejo-pib-brasileiro-deve-fechar-2022-acima-dos-2/",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d451ee6f00fc2c63b934ac5f7053a47a64b28e75ae3afb5ede8cb015795fe80b5.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.moneytimes.com.br/mesmo-com-terceira-queda-no-varejo-pib-brasileiro-deve-fechar-2022-acima-dos-2/&tbm=ilp&ilps=ADNMCi1Mxnv2t9CZTYBGaLVpYdgtBEzrNQ",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1Mxnv2t9CZTYBGaLVpYdgtBEzrNQ&q=About+https%3A%2F%2Fwww.moneytimes.com.br%2Fmesmo-com-terceira-queda-no-varejo-pib-brasileiro-deve-fechar-2022-acima-dos-2%2F",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:z3BIQ9wpQ84J:https://www.moneytimes.com.br/mesmo-com-terceira-queda-no-varejo-pib-brasileiro-deve-fechar-2022-acima-dos-2/&cd=2&hl=en&ct=clnk&gl=us",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Dados do varejo decepcionam e mercado já precifica PIB ...",
+                    "link": "https://www.moneytimes.com.br/dados-do-varejo-decepcionam-e-mercado-ja-precifica-pib-brasileiro-mais-fraco/",
+                    "displayed_link": "https://www.moneytimes.com.br › da...",
+                    "date": "Jul 13, 2022",
+                    "snippet": "Os dados de varejo, divulgados nesta quarta-feira (13) pelo Instituto Brasileiro de Geografia e Estatística (IBGE), decepcionaram o mercado.",
+                    "snippet_highlighted_words": [
+                        "varejo"
+                    ],
+                    "about_this_result": {
+                        "source": {
+                            "description": "moneytimes.com.br was first indexed by Google more than 10 years ago",
+                            "source_info_link": "https://www.moneytimes.com.br/dados-do-varejo-decepcionam-e-mercado-ja-precifica-pib-brasileiro-mais-fraco/",
+                            "security": "secure",
+                            "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d649e4139ca30d50c3f4f7280da0b217669773ebab82446402a3c3c1262ef3cb23e455556f0ef380161294c4172066ed13cd5fc47095513af.png"
+                        }
+                    },
+                    "about_page_link": "https://www.google.com/search?q=About+https://www.moneytimes.com.br/dados-do-varejo-decepcionam-e-mercado-ja-precifica-pib-brasileiro-mais-fraco/&tbm=ilp&ilps=ADNMCi211OcELVJgeFqjFySBEViDBEtSJA",
+                    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi211OcELVJgeFqjFySBEViDBEtSJA&q=About+https%3A%2F%2Fwww.moneytimes.com.br%2Fdados-do-varejo-decepcionam-e-mercado-ja-precifica-pib-brasileiro-mais-fraco%2F",
+                    "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:A0UclziLp7IJ:https://www.moneytimes.com.br/dados-do-varejo-decepcionam-e-mercado-ja-precifica-pib-brasileiro-mais-fraco/&cd=3&hl=en&ct=clnk&gl=us"
+                }
+            ]
+        },
+        {
+            "position": 3,
+            "title": "Varejo e serviços impulsionam PIB no 1º trimestre, mas ...",
+            "link": "https://economia.estadao.com.br/noticias/geral,varejo-servicos-pib-primeiro-trimestre-2022,70004073631",
+            "displayed_link": "https://economia.estadao.com.br › ge...",
+            "date": "May 23, 2022",
+            "snippet": "Atividade se beneficiou neste início de ano da reabertura mais ampla da economia e de estímulos ao consumo, como antecipação do 13º e saques ...",
+            "about_this_result": {
+                "source": {
+                    "description": "O Estado de S. Paulo, also known as Estadão, is a daily newspaper published in São Paulo, Brazil. It is the third largest newspaper in Brazil, and its format changed from broadsheet to berliner on October 17, 2021.\nIt has the second-largest circulation in the city of São Paulo, behind only Folha de S. Paulo.",
+                    "source_info_link": "https://economia.estadao.com.br/noticias/geral,varejo-servicos-pib-primeiro-trimestre-2022,70004073631",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6daca9adb30bf6896f4617df1a4f4121625ae22801ac334346f689db7c9c9ba37a.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://economia.estadao.com.br/noticias/geral,varejo-servicos-pib-primeiro-trimestre-2022,70004073631&tbm=ilp&ilps=ADNMCi1ul5MccVI1IyX81BjUgzLtSIp0VA",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1ul5MccVI1IyX81BjUgzLtSIp0VA&q=About+https%3A%2F%2Feconomia.estadao.com.br%2Fnoticias%2Fgeral%2Cvarejo-servicos-pib-primeiro-trimestre-2022%2C70004073631",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:cyC_NJBP-KIJ:https://economia.estadao.com.br/noticias/geral,varejo-servicos-pib-primeiro-trimestre-2022,70004073631&cd=4&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 4,
+            "title": "O aumento da representatividade do varejo no Brasil",
+            "link": "https://mercadoeconsumo.com.br/07/02/2022/artigos/o-aumento-da-representatividade-do-varejo-no-brasil/",
+            "displayed_link": "https://mercadoeconsumo.com.br › o...",
+            "date": "Feb 7, 2022",
+            "snippet": "É matemático. Em 2004, o varejo e o comércio representavam 19% do PIB do País. Após o período de maior crescimento desses setores, em 2012.",
+            "snippet_highlighted_words": [
+                "varejo",
+                "PIB"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "mercadoeconsumo.com.br was first indexed by Google more than 10 years ago",
+                    "source_info_link": "https://mercadoeconsumo.com.br/07/02/2022/artigos/o-aumento-da-representatividade-do-varejo-no-brasil/",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d1f11040a2d81ca35c9c3efca512e83d8be67ae89944dd167cb4efb5b530617b9.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://mercadoeconsumo.com.br/07/02/2022/artigos/o-aumento-da-representatividade-do-varejo-no-brasil/&tbm=ilp&ilps=ADNMCi2edaHJNBd5hscw5TpKLGOX0Bkj2A",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi2edaHJNBd5hscw5TpKLGOX0Bkj2A&q=About+https%3A%2F%2Fmercadoeconsumo.com.br%2F07%2F02%2F2022%2Fartigos%2Fo-aumento-da-representatividade-do-varejo-no-brasil%2F",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:eKQph56-gBkJ:https://mercadoeconsumo.com.br/07/02/2022/artigos/o-aumento-da-representatividade-do-varejo-no-brasil/&cd=5&hl=en&ct=clnk&gl=us",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Tombo nas vendas no varejo deve ter impacto no PIB de 2021 ...",
+                    "link": "https://mercadoeconsumo.com.br/06/10/2021/noticias/tombo-nas-vendas-no-varejo-deve-ter-impacto-no-pib-de-2021-e-2022/",
+                    "displayed_link": "https://mercadoeconsumo.com.br › t...",
+                    "date": "Oct 6, 2021",
+                    "snippet": "Tombo nas vendas no varejo deve ter impacto no PIB de 2021 e 2022. Após quatro taxas positivas, volume de vendas caiu 3,1% em agosto.",
+                    "snippet_highlighted_words": [
+                        "varejo",
+                        "PIB"
+                    ],
+                    "about_this_result": {
+                        "source": {
+                            "description": "mercadoeconsumo.com.br was first indexed by Google more than 10 years ago",
+                            "source_info_link": "https://mercadoeconsumo.com.br/06/10/2021/noticias/tombo-nas-vendas-no-varejo-deve-ter-impacto-no-pib-de-2021-e-2022/",
+                            "security": "secure",
+                            "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6da120bc972d2bfd4efc5e2abda721b6eb4661b38f385a0cf9a0f99a402cc7bc6c45c339fcddbaf644c2853305f1288d01e7bcf7f558398d18.png"
+                        }
+                    },
+                    "about_page_link": "https://www.google.com/search?q=About+https://mercadoeconsumo.com.br/06/10/2021/noticias/tombo-nas-vendas-no-varejo-deve-ter-impacto-no-pib-de-2021-e-2022/&tbm=ilp&ilps=ADNMCi1t5MGF72GH4h_sln2UXsgRZDAarQ",
+                    "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1t5MGF72GH4h_sln2UXsgRZDAarQ&q=About+https%3A%2F%2Fmercadoeconsumo.com.br%2F06%2F10%2F2021%2Fnoticias%2Ftombo-nas-vendas-no-varejo-deve-ter-impacto-no-pib-de-2021-e-2022%2F",
+                    "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tNr_1G_sYZEJ:https://mercadoeconsumo.com.br/06/10/2021/noticias/tombo-nas-vendas-no-varejo-deve-ter-impacto-no-pib-de-2021-e-2022/&cd=6&hl=en&ct=clnk&gl=us"
+                }
+            ]
+        },
+        {
+            "position": 5,
+            "title": "A importância do varejo para a economia brasileira | +Lojas",
+            "link": "https://www.mannesoftmaislojas.com.br/blog/a-importancia-do-varejo-para-a-economia-brasileira",
+            "displayed_link": "https://www.mannesoftmaislojas.com.br › ...",
+            "date": "Aug 11, 2021",
+            "snippet": "Naquele ano, o crescimento do Varejo Restrito (que não inclui automóveis e materiais de construção) foi de 1,8%, contra 1,1% do PIB nacional ...",
+            "snippet_highlighted_words": [
+                "Varejo",
+                "PIB"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "mannesoftmaislojas.com.br was first indexed by Google in August 2020",
+                    "source_info_link": "https://www.mannesoftmaislojas.com.br/blog/a-importancia-do-varejo-para-a-economia-brasileira",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d889e42f0f0fe1f02e55b3c51e47d332b03d4a3a3452ca9511a6f30a7ba8e6015.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.mannesoftmaislojas.com.br/blog/a-importancia-do-varejo-para-a-economia-brasileira&tbm=ilp&ilps=ADNMCi12g4Zng-d24yXMIamGyfes69hj4Q",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi12g4Zng-d24yXMIamGyfes69hj4Q&q=About+https%3A%2F%2Fwww.mannesoftmaislojas.com.br%2Fblog%2Fa-importancia-do-varejo-para-a-economia-brasileira",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:RLFrhnUJnzEJ:https://www.mannesoftmaislojas.com.br/blog/a-importancia-do-varejo-para-a-economia-brasileira&cd=7&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 6,
+            "title": "Varejo emprega 25% dos trabalhadores CLT",
+            "link": "https://dcomercio.com.br/publicacao/s/varejo-emprega-25-dos-trabalhadores-clt",
+            "displayed_link": "https://dcomercio.com.br › publicacao",
+            "date": "Apr 29, 2022",
+            "snippet": "De acordo com o estudo “O Papel do Varejo na Economia Brasileira”, ... o Varejo Restrito equivale a 22,9% do PIB brasileiro.",
+            "snippet_highlighted_words": [
+                "Varejo",
+                "Varejo",
+                "PIB"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "dcomercio.com.br was first indexed by Google more than 10 years ago",
+                    "source_info_link": "https://dcomercio.com.br/publicacao/s/varejo-emprega-25-dos-trabalhadores-clt",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d4759a66c000bd50e6b782272594ce9589a6d15704267dac824658cda4e2f067a.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://dcomercio.com.br/publicacao/s/varejo-emprega-25-dos-trabalhadores-clt&tbm=ilp&ilps=ADNMCi1bZeT5IqZuCtj5UupYcXdgw4nohQ",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1bZeT5IqZuCtj5UupYcXdgw4nohQ&q=About+https%3A%2F%2Fdcomercio.com.br%2Fpublicacao%2Fs%2Fvarejo-emprega-25-dos-trabalhadores-clt",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:QkefCvjieDkJ:https://dcomercio.com.br/publicacao/s/varejo-emprega-25-dos-trabalhadores-clt&cd=8&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 7,
+            "title": "Monitor do PIB aponta crescimento de 4,7% em 2021, diz FGV",
+            "link": "https://cndl.org.br/varejosa/monitor-do-pib-aponta-crescimento-de-47-em-2021-diz-fgv/",
+            "displayed_link": "https://cndl.org.br › varejosa › monit...",
+            "date": "Feb 16, 2022",
+            "snippet": "Varejo S.A.2022®. Todos os direitos reservados.",
+            "snippet_highlighted_words": [
+                "Varejo"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "cndl.org.br was first indexed by Google more than 10 years ago",
+                    "source_info_link": "https://cndl.org.br/varejosa/monitor-do-pib-aponta-crescimento-de-47-em-2021-diz-fgv/",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d1f4ac73249c668c5788530dd371ad02ffa0f8aa8b07d95840f50b1367db8f737.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://cndl.org.br/varejosa/monitor-do-pib-aponta-crescimento-de-47-em-2021-diz-fgv/&tbm=ilp&ilps=ADNMCi1GotX9CDOhR3YcFMCTG0ac1ZCQdA",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi1GotX9CDOhR3YcFMCTG0ac1ZCQdA&q=About+https%3A%2F%2Fcndl.org.br%2Fvarejosa%2Fmonitor-do-pib-aponta-crescimento-de-47-em-2021-diz-fgv%2F",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:lwYvBCK_UPYJ:https://cndl.org.br/varejosa/monitor-do-pib-aponta-crescimento-de-47-em-2021-diz-fgv/&cd=9&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 8,
+            "title": "O Papel do Varejo na Economia Brasileira",
+            "link": "http://sbvc.com.br/wp-content/uploads/2018/11/O-Papel-do-Varejo-na-Economia-Brasileira-SBVC_Segunda-atualiza%C3%A7%C3%A3o-2018.pdf",
+            "displayed_link": "http://sbvc.com.br › uploads › 2018/11 › O-Papel...",
+            "date": "134 pages",
+            "snippet": "uma década, um crescimento consistente e que impulsionou o PIB brasileiro. Desde 2014, no entanto, ... O Varejo Restrito* teve 20,25% de impacto no PIB com.",
+            "snippet_highlighted_words": [
+                "PIB",
+                "Varejo",
+                "PIB"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "sbvc.com.br was first indexed by Google more than 10 years ago",
+                    "source_info_link": "http://sbvc.com.br/wp-content/uploads/2018/11/O-Papel-do-Varejo-na-Economia-Brasileira-SBVC_Segunda-atualiza%C3%A7%C3%A3o-2018.pdf",
+                    "security": "not secure",
+                    "icon": "https://serpapi.com/searches/6366d32ef0adfbfc53db155b/images/d1f6137f4cbfb5fec56a2d08f2423e6d00eb4fc31bfbbfb7b119474c80af81190f00480f9c453f658c0a31a445166edb.png"
+                }
+            },
+            "about_page_link": "https://www.google.com/search?q=About+http://sbvc.com.br/wp-content/uploads/2018/11/O-Papel-do-Varejo-na-Economia-Brasileira-SBVC_Segunda-atualiza%25C3%25A7%25C3%25A3o-2018.pdf&tbm=ilp&ilps=ADNMCi3FpU_MmhJePXiP-mIpp9J6cJhLDA",
+            "about_page_serpapi_link": "https://serpapi.com/search.json?engine=google_about_this_result&ilps=ADNMCi3FpU_MmhJePXiP-mIpp9J6cJhLDA&q=About+http%3A%2F%2Fsbvc.com.br%2Fwp-content%2Fuploads%2F2018%2F11%2FO-Papel-do-Varejo-na-Economia-Brasileira-SBVC_Segunda-atualiza%25C3%25A7%25C3%25A3o-2018.pdf",
+            "cached_page_link": "http://webcache.googleusercontent.com/search?q=cache:oepdqEW9VmAJ:sbvc.com.br/wp-content/uploads/2018/11/O-Papel-do-Varejo-na-Economia-Brasileira-SBVC_Segunda-atualiza%25C3%25A7%25C3%25A3o-2018.pdf&cd=10&hl=en&ct=clnk&gl=us"
+        }
+    ],
+    "related_searches": [
+        {
+            "query": "pmc ibge",
+            "link": "https://www.google.com/search?q=PMC+IBGE&sa=X&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ1QJ6BAgnEAE"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=10&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8NMDegQIBRAQ",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=10&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAE",
+            "3": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=20&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAG",
+            "4": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=30&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAI",
+            "5": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=40&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAK",
+            "6": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=50&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAM",
+            "7": "https://www.google.com/search?q=varejo+pib&ei=LtNmY638I-2B0PEPx9WPqAE&start=60&sa=N&ved=2ahUKEwity4bf-5f7AhXtADQIHcfqAxUQ8tMDegQIBRAO"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=varejo+pib&start=60"
+        }
+    }
+}
