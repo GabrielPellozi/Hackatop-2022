@@ -1,0 +1,23 @@
+{
+  "name": "hackatop-2022-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielPellozi/Hackatop-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielPellozi/Hackatop-2022/issues"
+  },
+  "homepage": "https://github.com/GabrielPellozi/Hackatop-2022#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "google-search-results-nodejs": "^2.1.0"
+  }
+}
