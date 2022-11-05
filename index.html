@@ -1,12 +1,45 @@
 <html>
 
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
 </head>
 
 <body>
-    
-</body>
+    <table id="list" style="width:100%">
 
+    </table>
+
+    <script>
+
+        let list = document.getElementById("list");
+
+        fetch('./varejo pip 2022.json')
+        .then((response) => 
+            {
+                return response.json();
+            })
+        .then((json) =>
+            {
+                let data = json.organic_results;
+            
+                data.map(function(result)
+                {
+                    console.log(result.snippet);
+                    
+                    let tr = document.createElement("tr");
+                    tr.innerText = `${result.snippet}`;
+
+                    list.appendChild(tr);
+                });
+            });
+    </script>
+    
+    </body>
 
 </html>
