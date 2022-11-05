@@ -32,6 +32,10 @@ function getWordCount(str) {
 
 // }
 
+String.prototype.replaceAt = function(index, replacement) {
+    return this.substring(0, index) + replacement + this.substring(index + replacement.length);
+}
+
 /**
  * @param {string} keyword 
  * @param {string array} words 
@@ -41,8 +45,18 @@ function getWordDistance(keyword, words)
     let distance = 0;
     for (let i = 0; i < words.length; ++i)
     {
+        let wordWithoutComma = words[i];
+
+        if (words[i][words[i].length - 1] == ',')
+        {
+            // console.log(words[i][words[i].length - 1] == ',');
+            // words[i][words[i].length - 1]. = " ";
+            wordWithoutComma = words[i].replaceAt(words[i].length - 1, ' ');
+            // console.log(wordWithoutComma);
+        }
+
         ++distance;
-        if (!isNaN(words[i]))
+        if (!isNaN(wordWithoutComma)) // if it's a number
         {
             console.log(words[i] + "   " + distance);
             return distance;
@@ -76,9 +90,10 @@ fs.readFile('varejo pip 2022.json', 'utf8', function(err, data){
 
 
 
-    console.log(organic_words);
+    // console.log(organic_words);
 
-    getWordDistance("PIB", organic_words[0]);
+    // console.log(organic_words[2]);
+    getWordDistance("de", organic_words[2]);
 
     var organicResults = jsonData.organic_results;
     // console.log(organicResults);
