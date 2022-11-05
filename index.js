@@ -83,17 +83,17 @@ function getWordDistance(keyword, words, desiredNumberType)
             if (desiredNumberType == numberTypes.ANY)
             {
                 console.log(words[i] + "   " + distance);
-                return distance;
+                return (words[i] + "   " + distance);
             }
             if (thisNumberType == numberTypes.PERCENTAGE && desiredNumberType == numberTypes.PERCENTAGE)
             {
                 console.log(words[i] + "   " + distance);
-                return distance;
+                return (words[i] + "   " + distance);
             }
             if (thisNumberType == numberTypes.REGULAR && desiredNumberType == numberTypes.REGULAR)
             {
                 console.log(words[i] + "   " + distance);
-                return distance;
+                return (words[i] + "   " + distance);
             }
         }
 
@@ -128,6 +128,14 @@ fs.readFile('varejo crescimento 2021.json', 'utf8', function(err, data){
     {
         getWordDistance("PIB", organic_words[i], numberTypes.PERCENTAGE);
     }
+
+    const distances = [];
+    for (let i = 0; i < organic_words.length; ++i)
+    {
+        distances.push(getWordDistance("PIB", organic_words[i], numberTypes.PERCENTAGE));
+    }
+
+    fs.writeFileSync("distances.json", JSON.stringify(distances))
 
     var organicResults = jsonData.organic_results;
 });
