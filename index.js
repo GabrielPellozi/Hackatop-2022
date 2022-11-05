@@ -1,19 +1,27 @@
 var fs = require('fs');
 
+const numberTypes = {
+    ANY: 'any',
+    REGULAR: 'regular',
+    PERCENTAGE: 'percentage'
+}
+
 function queryResults()
 {
     const SerpApi = require('google-search-results-nodejs');
     const search = new SerpApi.GoogleSearch("f3b04eacb6bf796f1a34208c1c05bb39a56d2668c618023c4795efd086b618bc");
 
+    const searchQuery = "varejo crescimento 2021";
+
     const params = {
         engine: "google",
-        q: "varejo pib 2022",
+        q: searchQuery,
         kl: "us-en"
     };
 
     const callback = function(data) {
         console.log(data);
-        fs.writeFileSync("varejo pip 2022.json", JSON.stringify(data))
+        fs.writeFileSync(searchQuery + ".json", JSON.stringify(data))
     };
 
     // Show result as JSON
@@ -39,27 +47,54 @@ String.prototype.replaceAt = function(index, replacement) {
 /**
  * @param {string} keyword 
  * @param {string array} words 
+ * @param {numberTypes} desiredNumberType
  */
-function getWordDistance(keyword, words)
+function getWordDistance(keyword, words, desiredNumberType)
 {
     let distance = 0;
     for (let i = 0; i < words.length; ++i)
     {
-        let wordWithoutComma = words[i];
+        let wordFiltered = words[i];
+
+        let thisNumberType = numberTypes.ANY;
 
         if (words[i][words[i].length - 1] == ',')
         {
-            // console.log(words[i][words[i].length - 1] == ',');
-            // words[i][words[i].length - 1]. = " ";
-            wordWithoutComma = words[i].replaceAt(words[i].length - 1, ' ');
-            // console.log(wordWithoutComma);
+
+            thisNumberType = numberTypes.REGULAR;
+            if (words[i][words[i].length - 2] == '%')
+            {
+                thisNumberType = numberTypes.PERCENTAGE;
+            }
+            wordFiltered = words[i].replaceAt(words[i].length - 1, ' ');
+        }
+
+        if (words[i][words[i].length - 1] == '%')
+        {
+            thisNumberType = numberTypes.PERCENTAGE;
+
+
+            wordFiltered = words[i].replaceAt(words[i].length - 1, ' ');
         }
 
         ++distance;
-        if (!isNaN(wordWithoutComma)) // if it's a number
+        if (!isNaN(parseFloat(wordFiltered.replace(/,/g, '.')))) // if it's a number
         {
-            console.log(words[i] + "   " + distance);
-            return distance;
+            if (desiredNumberType == numberTypes.ANY)
+            {
+                console.log(words[i] + "   " + distance);
+                return distance;
+            }
+            if (thisNumberType == numberTypes.PERCENTAGE && desiredNumberType == numberTypes.PERCENTAGE)
+            {
+                console.log(words[i] + "   " + distance);
+                return distance;
+            }
+            if (thisNumberType == numberTypes.REGULAR && desiredNumberType == numberTypes.REGULAR)
+            {
+                console.log(words[i] + "   " + distance);
+                return distance;
+            }
         }
 
         if (words[i] == keyword)
@@ -69,7 +104,9 @@ function getWordDistance(keyword, words)
     }
 }
 
-fs.readFile('varejo pip 2022.json', 'utf8', function(err, data){
+// queryResults();
+
+fs.readFile('varejo crescimento 2021.json', 'utf8', function(err, data){
     if (err)
     {
         console.error(err);
@@ -81,20 +118,16 @@ fs.readFile('varejo pip 2022.json', 'utf8', function(err, data){
 
     let organicResultsLength = jsonData.organic_results.length;
 
-    // var organicResults = jsonData.organic_results[0].snippet;
     for (let i = 0; i < organicResultsLength; ++i)
     {
         organic_words[i] = new Array(organicResultsLength);
         organic_words[i] = jsonData.organic_results[i].snippet.split(" ");
     }
 
-
-
-    // console.log(organic_words);
-
-    // console.log(organic_words[2]);
-    getWordDistance("de", organic_words[2]);
+    for (let i = 0; i < organic_words.length; ++i)
+    {
+        getWordDistance("PIB", organic_words[i], numberTypes.PERCENTAGE);
+    }
 
     var organicResults = jsonData.organic_results;
-    // console.log(organicResults);
 });
