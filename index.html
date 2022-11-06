@@ -11,90 +11,136 @@
 </style>
 
 <head>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Logo</h1>
+    <!-- <h1>Logo</h1> -->
+    <img src="2022-11-05 (2).png" width="150" height="150" class="center">
 
-    <!--<label for="options"></label>-->
-
-    <form>
-        <select name="options" id="options">
-            <option value="any">ANY</option>
-            <option value="regular">REGULAR</option>
-            <option value="percentage">PERCENTAGE</option>
-        </select>
-
-        <label for="fsearch">Search:</label>
-        <input type="text" id="fsearch" name="fsearch">
-    </form>
+    <br></br>
 
     <table id="list" style="width:100%">
         <tr>
-            <th>Snippet</th>
-            <th>%</th>
+            <td>
+            #1: esse dia a sede virou um caos 🔥<strong> #realitydaspatroas #afazenda12 #treta #caos #fogonofeno #jojotodynho #raissabarbora #mcmirella #afazenda #reality #realitys #record #recordtv #challenge #foryou #viral #fypシ </strong>
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@realitydaspatroas/video/7162674238929816838?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #2: Com certeza parece eu 🤡😅 Créditos: <strong> @sofiaespanha </strong>
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@statuspraposttar/video/7162541940335070469?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #3: DO NADA KKKKKKKKKKKKKKK Q ESQUISITO
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@juliano/video/7145118162109926661?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #4: som original - Franklin Medrado
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@sarahfemina/video/7159966566002576646?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #5: VENCEMOS!!!!!!!!
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@felipeneto/video/7160755644004420869?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #6: Nunca brinque quando mãe falar sério 😅Instagram: @CelieCelo Rumo a 100k Vem!<strong> #Comédia #mãeraiz #humor #eunavida </strong>
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@celiecelo/video/7157858832281013509?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #7: <strong> #neymar #presidente #jairbolsonaro #bolsonaro #brasil #🇧🇷 #22 </strong>
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@bolsonaromessiasjair/video/7148896985003789573?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #8: PERDA DE TEMPO <strong> #fy #fyp #foryou #humor #lula #bolsonaro #forabolsonaro </strong>
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@eurafacesar/video/7161145943067249925?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #9: Parece Até um Marshmallow de Tão Pesado Que É - Dj Luh Souza
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@helentik44/video/7162596919368355078?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            #10: la moroochaaa - IG: @37angiie
+            </td>
+            
+            <td>
+                <a href="https://www.tiktok.com/@cassiilva/video/7162664292683173126?is_copy_url=1&is_from_webapp=v1">
+                    Video
+                </a>
+            </td>
         </tr>
     </table>
-
-    <script>
-
-        let list = document.getElementById("list");
-        let tr_list = [];
-
-        fetch('./distances.json')
-        .then((response) => 
-            {
-                return response.json();
-            })
-        .then((json) =>
-            {
-                let data = json;
-
-                data.map(function(result)
-                {
-                    tr_list.push(result);
-
-                    check_if_distance_is_complete();
-                });
-            });
-
-        function check_if_distance_is_complete()
-        {
-            if(tr_list.length == 10)
-            {
-                fetch('./varejo pib 2022.json')
-                .then((response) => 
-                    {
-                        return response.json();
-                    })
-                .then((json) =>
-                    {
-                        let data = json.organic_results;
-                        let index = 0;
-
-                        data.map(function(result)
-                        {
-                            if(tr_list[index] != null)
-                            {
-                                let tr = document.createElement("tr");
-                                tr.innerText = `${result.snippet}`;
-
-                                let td = document.createElement("td");
-                                td.innerText = tr_list[index];
-
-                                list.appendChild(tr);
-                                tr.appendChild(td);
-                            }
-
-                            index++;
-                        });
-                    });
-            }
-        }
-        
-    </script>
-    
-    </body>
+</body>
 
 </html>
