@@ -12,32 +12,68 @@
 
 <body>
     <table id="list" style="width:100%">
-
+        <tr>
+            <th>Snippet</th>
+            <th>%</th>
+        </tr>
     </table>
 
     <script>
 
         let list = document.getElementById("list");
+        let tr_list = [];
 
-        fetch('./varejo pip 2022.json')
+        fetch('./distances.json')
         .then((response) => 
             {
                 return response.json();
             })
         .then((json) =>
             {
-                let data = json.organic_results;
-            
+                let data = json;
+
                 data.map(function(result)
                 {
-                    console.log(result.snippet);
-                    
-                    let tr = document.createElement("tr");
-                    tr.innerText = `${result.snippet}`;
+                    tr_list.push(result);
 
-                    list.appendChild(tr);
+                    check_if_distance_is_complete();
                 });
             });
+
+        function check_if_distance_is_complete()
+        {
+            if(tr_list.length == 10)
+            {
+                fetch('./varejo pib 2022.json')
+                .then((response) => 
+                    {
+                        return response.json();
+                    })
+                .then((json) =>
+                    {
+                        let data = json.organic_results;
+                        let index = 0;
+
+                        data.map(function(result)
+                        {
+                            if(tr_list[index] != null)
+                            {
+                                let tr = document.createElement("tr");
+                                tr.innerText = `${result.snippet}`;
+
+                                let td = document.createElement("td");
+                                td.innerText = tr_list[index];
+
+                                list.appendChild(tr);
+                                tr.appendChild(td);
+                            }
+
+                            index++;
+                        });
+                    });
+            }
+        }
+        
     </script>
     
     </body>
