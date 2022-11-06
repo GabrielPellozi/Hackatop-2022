@@ -1,22 +1,16 @@
+const {numberTypes}  = require('./types.js');
+
 var fs = require('fs');
 
-const numberTypes = {
-    ANY: 'any',
-    REGULAR: 'regular',
-    PERCENTAGE: 'percentage'
-}
-
-function queryResults()
+function queryResults(searchQuery = "varejo crescimento 2021")
 {
     const SerpApi = require('google-search-results-nodejs');
     const search = new SerpApi.GoogleSearch("f3b04eacb6bf796f1a34208c1c05bb39a56d2668c618023c4795efd086b618bc");
 
-    const searchQuery = "varejo crescimento 2021";
-
     const params = {
         engine: "google",
         q: searchQuery,
-        kl: "us-en"
+        kl: "pt-br"
     };
 
     const callback = function(data) {
