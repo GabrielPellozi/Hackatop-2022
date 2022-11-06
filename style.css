@@ -1,0 +1,17 @@
+.logo { 
+    width: auto;
+    height: auto;
+    text-align:center;
+}
+  
+.logo img {
+    display:inline-block;
+}
+
+.div {
+    height: 400px;
+    width: 800px;
+    background: red;
+    line-height: 400px;
+    text-align: center;
+}

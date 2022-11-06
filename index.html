@@ -4,6 +4,10 @@
     table, th, td {
         border:1px solid black;
     }
+
+    h1 {
+    text-align:center;
+    }
 </style>
 
 <head>
@@ -11,6 +15,21 @@
 </head>
 
 <body>
+    <h1>Logo</h1>
+
+    <!--<label for="options"></label>-->
+
+    <form>
+        <select name="options" id="options">
+            <option value="any">ANY</option>
+            <option value="regular">REGULAR</option>
+            <option value="percentage">PERCENTAGE</option>
+        </select>
+
+        <label for="fsearch">Search:</label>
+        <input type="text" id="fsearch" name="fsearch">
+    </form>
+
     <table id="list" style="width:100%">
         <tr>
             <th>Snippet</th>

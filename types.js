@@ -4,4 +4,4 @@ const numberTypes = {
     PERCENTAGE: 'percentage'
 }
 
-module.exports = {numberTypes};
+// module.exports = {numberTypes};
