@@ -1,0 +1,7 @@
+O DataWire tinha objetivo inicial de ser um curador de dados obtidos de motores de pesquisa como Google, Google Acadêmico, DuckDuckGo e Bing, utilizando de uma heurística de estimativa da confiabilidade dos dados de acordo com sua frequência e distância de palavras-chave.
+O usuário pesquisava o assunto desejado, e é automaticamente montada uma tabela colecionando os dados, sua confiabilidade, o site de onde foi retirado e o excerto de texto onde foi encontrado. Fazia isso a partir da API SerpAPI para transformar resultados dos motores de pesquisa em JSON, sem precisar entrar em nenhum outro site. Os dados podem ser facilmente removidos de forma manual pelo usuário após analisá-los com mais atenção, caso o dado não seja coerente com o que ele deseja.
+Essa tecnologia utilizava de uma mistura de Javascript para front-end, elaboração automática de arquivos JSON para manipulação e armazenamento de dados Node.js para o back-end.
+Porém, o scraping de páginas web é, frequentemente, violação de termos de uso dos websites, então essa ideia teve que ser descartada em meio de desenvolvimento por preocupações legais.
+
+Atualmente, o DataWire é uma plataforma que mostra os 10 primeiros vídeos que aparecem na página do TikTok, com html estático e css, já que não há requisição gratuita para obter os vídeos do TikTok.
+O propósito é que uma empresa interessada nesses dados teria fácil acesso a eles por meio do DataWire.
